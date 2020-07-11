@@ -246,11 +246,11 @@ This method takes a HealthInsuranceCustomerProfile object as an argument.
 
 Let's see what this class is: So HealthInsuranceCustomerProfile
 
-has an isLoyalCustomer () method that returns a true value if the current customer is a loyal customer. If no,
+has an ```isLoyalCustomer()``` method that returns a true value if the current customer is a loyal customer. If no,
 
 it simply returns false. Therefore, this HealthInsuranceCustomerProfile object is the entry for the calculPremiumDiscountPercent method.
 
-The calculation method calls the isLoyalCustomer () method on the HealthInsuranceCustomerProfile entry object and
+The calculation method calls the ```isLoyalCustomer()``` method on the HealthInsuranceCustomerProfile entry object and
 
 makes more discount calculations based on whether the customer is loyal or not.
 
@@ -268,7 +268,7 @@ that is, it will always be based on loyalty, regardless of your health, vehicle 
 
 Okay, so to deal with that, we added a new class to our design. VehicleInsuranceCustomerProfile.
 
-This is exactly like the HealthInsuranceCustomerProfile class. It has an isLoyal () method that returns a Boolean value.
+This is exactly like the HealthInsuranceCustomerProfile class. It has an ```isLoyal()``` method that returns a Boolean value.
 
 So, are we done? No, this is where the problems begin.
 
