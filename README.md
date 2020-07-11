@@ -319,3 +319,12 @@ Neither the calculator class, nor the interface, nor any of the existing classes
 See how it makes the process of adding extensions much cleaner.
 
 in a more elegant way. So, that was an example for the Open Closed Principle.
+
+---
+
+This content is based on the training of Sujith George.
+**Link:** [SOLID Principles: Introducing Software Architecture & Design](https://www.udemy.com/course/solid-design/)
+
+#### Aaaah, se curtiu, não esquece de deixar a :star:
+
+---
